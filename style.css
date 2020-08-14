@@ -1,27 +1,78 @@
 body{
-    background-color:rgb(104, 184, 252)
+    background-color:rgb(104, 184, 252);
+    margin:0;
 }
 
 header{
     background-color: white;
-    padding: 50px;
-    border: green;
+    height: 50px;
+    width: auto;
+    box-shadow: 0px 4px 5px rgb(170, 160, 40);
 }
 
-nav{box-align: left;
-
-    background-color: salmon;
+nav{
+    align-content: center;
 }
 
-form{
-    width: 350px;
-    height: 500px;
-    margin: 50px;
-    padding: 15px;
-    background-color: white;
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 60px;
+}
+
+.navButton{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 120, 255);
+    padding: 10px 30px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 7px;
+    border-color: darkslategrey;
+    border: 3px;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.SubButton{
+    width: 180px;
+    background-color: rgb(0, 120, 255);
+    color: white;
+    padding: 5px;
+    border-color: darkslategrey;
+    border: 3px;
+    border-radius: 3px;
+
+    
     
 }
 
 fieldset{
-    background-color: tomato;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px; 
+    border-color: darkslategray;
+    border-width: thin;
+    background-color:white;
+    box-shadow: 4px 4px 5px rgb(170, 160, 40);
 }
+
+.circle{
+    padding: 7px;
+    border-width: thin;
+}
+
+form{
+    text-align: center;
+    border: 0px;
+    margin-right: 30%; 
+    margin-left: 30%;
+    margin-top: 20%;
+    
+    /*position: relative; */
+    /*padding: 25px; */
+    background-color:  rgb(104, 184, 252);
+    
+    
+}    

@@ -4,43 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Page</title>
-    <link rel="stylesheet" type="text/css" href="InClassForm-styles.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <div>
-        <div>
-            <header>
-                <nav>
-                    <a href="about-us.html"><button type="button">About Us</button></a>
-                    <a href="register.html"><button type="button">Register</button></a>
-                </nav>
-            </header>
 
-        </div>
-        
+    <div>
+        <header>
+            <nav>
+                <a href="register.html"><button type="navButton" class="navButton">Register</button></a>
+                <a href="about-us.html"><button type="navButton" class="navButton">About Us</button></a>
+            </nav>
+        </header>
     </div>
+        
+
+   
 
     <form>
-        <fieldset>
-            <legend> Sign Up </legend>
-            <p><input type=email, placeholder="Email"></p>
-            <p><input type=userName, placeholder="Username"></p>
-            <p><input type=password, placeholder="Password"></p>
-            <p><input type=confPassword, placeholder="Confirm Password"></p>
-            <input type="submit" value="submit">
-
-            <br>
-
-            <a href="https://www.amazon.com/"><img src="./SocialAssests/amazon-logo.png" class="circle" width="20" height="20">
-            <a href="https://www.facebook.com/"><img src="./SocialAssests/facebook-logo.png" class="circle" width="20" height="20">
-            <a href="https://www.github.com/"><img src="./SocialAssests/github-logo.png" class="circle" width="20" height="20">
-            <a href="https://www.slack.com/"><img src="./SocialAssests/slack-logo.png" class="circle" width="20" height="20">
-            <a href="https://www.instagram.com/"><img src="./SocialAssests/instagram-logo.png" class="circle" width="20" height="20"> 
-
+        <fieldset>    
+        <h1>Sign Up</h1>    
         
-        </fieldset>
+        <p><input type=email, placeholder="Email"></p>
+        <p><input type=userName, placeholder="Username"></p>
+        <p><input type=password, placeholder="Password"></p>
+        <p><input type=confPassword, placeholder="Confirm Password"></p>
+        <p><button class="SubButton">Submit</button></p>    
 
+        <!-- <input type="submit" value="submit"> -->
+            
+        <p>  
+            <a href="https://www.amazon.com/"><img src="SocialAssests/amazon-logo.png" class="circle" width="20" height="20">
+            <a href="https://www.facebook.com/"><img src="SocialAssests/facebook-logo.png" class="circle" width="20" height="20">
+            <a href="https://www.github.com/"><img src="SocialAssests/github-logo.png" class="circle" width="20" height="20">
+            <a href="https://www.slack.com/"><img src="SocialAssests/slack-logo.png" class="circle" width="20" height="20">
+            <a href="https://www.instagram.com/"><img src="SocialAssests/instagram-logo.png" class="circle" width="20" height="20"> 
+        </p>
+        </fieldset>                        
     </form>
+                                
+                            
+
 
 
 </body>
