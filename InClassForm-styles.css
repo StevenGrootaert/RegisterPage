@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(104, 184, 252)
+}
+
+header{
+    background-color: white;
+    padding: 50px;
+    border: green;
+}
+
+nav{box-align: left;
+
+    background-color: salmon;
+}
+
+form{
+    width: 350px;
+    height: 500px;
+    margin: 50px;
+    padding: 15px;
+    background-color: white;
+    
+}
+
+fieldset{
+    background-color: tomato;
+}
